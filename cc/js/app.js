@@ -10,7 +10,19 @@ $( document )
          $( "#grammar" )
             .html( grammar.toText() );
 
-         for( var i = 0; i < 10; i++ ) {
+          var s = grammar.flatten( "#origin#" );
+            console.log( s );
+            var div = $( "<div/>", {
+               class: "outputSample",
+              id:"outputSample",
+               html: s
+            } );
+
+            $( "#output" )
+               .append( div );
+        
+        /* 
+        for( var i = 0; i < 10; i++ ) {
 
             var s = grammar.flatten( "#origin#" );
             console.log( s );
@@ -22,7 +34,7 @@ $( document )
             $( "#output" )
                .append( div );
 
-         }
+         }*/
 
       }
 

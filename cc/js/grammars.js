@@ -89,13 +89,13 @@ var grammars = {
          "<br>&lsqb;#patch#&rsqb;<br>"
       ],
       twoRowPatch: [
-         "<br>&lsqb;#patch#, #patch#, <br> #patch#, #patch#&rsqb;<br>"
+         "<br>&lsqb;#patch#, #patch#, #patch#, #patch#&rsqb;<br>"
       ],
       threeRowPatch: [
-         "<br>&lsqb;#patch#, #patch#, #patch#, <br> #patch#, #patch#, #patch#, <br> #patch#, #patch#, #patch#&rsqb;<br>"
+         "<br>&lsqb;#patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#&rsqb;<br>"
       ],
       fourRowPatch: [
-         "<br>&lsqb;#patch#, #patch#, #patch#, #patch#, <br> #patch#, #patch#, #patch#, #patch#, <br> #patch#, #patch#, #patch#, #patch#, <br> #patch#, #patch#, #patch#, #patch#&rsqb;<br>"
+         "<br>&lsqb;#patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#, #patch#&rsqb;<br>"
       ],
       patch: [ "#leftLetter#/#rightLetter#", "#leftLetter#&bsol;#rightLetter#", "#leftLetter#|#rightLetter#", "#leftLetter#-#rightLetter#", "#singleLetter#" ],
       leftLetter: [ "#one#", "#two#", "#three#", "#four#", "#five#", "#six#", "#seven#", "#eight#", "#nine#", "#ten#", "#eleven#", "#twelve#" ],
